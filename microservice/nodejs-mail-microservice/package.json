@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-mail-microservice",
+  "version": "1.0.0",
+  "description": "Email microservice with template management and scheduling",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "typeorm": "^0.2.41",
+    "nodemailer": "^6.7.2",
+    "bull": "^4.1.0",
+    "winston": "^3.3.3",
+    "dotenv": "^10.0.0",
+    "class-validator": "^0.13.2",
+    "routing-controllers": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.12",
+    "@types/nodemailer": "^6.4.4",
+    "typescript": "^4.5.4",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "jest": "^27.4.5",
+    "@types/jest": "^27.0.3"
+  }
+} 
